@@ -1,0 +1,13 @@
+# Dependencies -- these get reinstalled via npm install, never commit them
+node_modules/
+
+# Secrets -- NEVER commit this, it has your real DB password and API keys
+.env
+
+# Build output
+dist/
+build/
+
+# OS/editor junk
+.DS_Store
+*.log
